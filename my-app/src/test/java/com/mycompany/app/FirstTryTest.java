@@ -17,7 +17,7 @@ public class FirstTryTest {
 
 	@Test
 	public void testFirstTry() {
-		Integer returnCal = firstTryService.cal(3, 3);
+		Integer returnCal = firstTryService.cal(1, 3);
 		System.out.println(returnCal);
 	}
 
