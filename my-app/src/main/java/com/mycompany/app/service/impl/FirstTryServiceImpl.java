@@ -12,5 +12,11 @@ public class FirstTryServiceImpl implements FirstTryService {
 		Integer cal = x + y;
 		return cal;
 	}
+	
+	@Override
+	public Integer deduct(Integer x, Integer y){
+		Integer cal = x - y;
+		return cal;
+	}
 
 }

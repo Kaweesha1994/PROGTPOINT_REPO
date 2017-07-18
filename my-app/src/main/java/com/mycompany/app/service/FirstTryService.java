@@ -7,4 +7,6 @@ public interface FirstTryService {
 
 	Integer cal(Integer x, Integer y);
 
+	Integer deduct(Integer x, Integer y);
+
 }

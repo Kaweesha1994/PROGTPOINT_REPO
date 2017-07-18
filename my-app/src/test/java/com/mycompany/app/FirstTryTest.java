@@ -21,4 +21,10 @@ public class FirstTryTest {
 		System.out.println(returnCal);
 	}
 
+	@Test
+	public void testDeduct() {
+		Integer deduct = firstTryService.deduct(10, 3);
+		System.out.println(deduct);
+	}
+
 }
